@@ -1,195 +1,44 @@
-# Sistema Escolar
+# escola-project
 
-Sistema web desenvolvido para gerenciamento escolar, permitindo o controle de alunos, professores e funcionários.
+This template should help get you started developing with Vue 3 in Vite.
 
----
+## Recommended IDE Setup
 
-# Tecnologias Utilizadas
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Frontend
-- Vue.js 3
-- Vue Router
-- Pinia
-- Axios
-- CSS3
+## Recommended Browser Setup
 
-## Backend
-- Node.js
-- Express
-- MySQL(SUPABASE)
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
----
+## Customize configuration
 
-# Funcionalidades
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Autenticação
-- Login de usuário
-- Proteção de rotas privadas
+## Project Setup
 
-## Alunos
-- Cadastro de alunos
-- Listagem de alunos
-- Edição de alunos
-- Exclusão de alunos
-
-## Professores
-- Cadastro de professores
-- Listagem de professores
-- Edição de professores
-- Exclusão de professores
-
-## Funcionários
-- Cadastro de funcionários
-- Listagem de funcionários
-- Edição de funcionários
-- Exclusão de funcionários
-
-## Interface
-- Navbar moderna
-- Sidebar responsiva
-- Modais reutilizáveis
-- Componentização com Vue
-- Tabelas reutilizáveis
-
----
-
-# Estrutura do Projeto
-
-```bash
-src/
-│
-├── components/
-│   ├── Button.vue
-│   ├── Input.vue
-│   ├── Modal.vue
-│   ├── Navbar.vue
-│   ├── Sidebar.vue
-│   └── Table.vue
-│
-├── views/
-│   ├── LoginView.vue
-│   ├── DashboardView.vue
-│   ├── AlunosView.vue
-│   ├── ProfessoresView.vue
-│   └── FuncionariosView.vue
-│
-├── router/
-│   └── index.js
-│
-├── stores/
-│   └── auth.js
-│
-├── services/
-│   └── api.js
-│
-├── App.vue
-└── main.js
-```
-
----
-
-# Como Executar o Projeto
-
-## Clonar o repositório
-
-```bash
-git clone URL_DO_REPOSITORIO
-```
-
----
-
-## Instalar dependências
-
-```bash
+```sh
 npm install
 ```
 
----
+### Compile and Hot-Reload for Development
 
-## Executar o frontend
-
-```bash
+```sh
 npm run dev
 ```
 
----
+### Compile and Minify for Production
 
-## Executar o backend
-
-```bash
-node server.js
+```sh
+npm run build
 ```
 
-ou
+### Lint with [ESLint](https://eslint.org/)
 
-```bash
-npm run dev
-```
-
----
-
-# Login de Teste
-
-```txt
-E-mail: admin@escola.com
-Senha: admin
-```
-
----
-
-# Funcionalidades do Sistema
-
-- Dashboard administrativo
-- Navegação protegida
-- CRUD completo
-- Interface responsiva
-- Componentes reutilizáveis
-- Sistema modularizado
-
----
-
-# Aprendizados no Projeto
-
-Durante o desenvolvimento foram utilizados conceitos como:
-
-- Componentização
-- SPA (Single Page Application)
-- Rotas protegidas
-- Gerenciamento de estado com Pinia
-- Consumo de API REST
-- CRUD completo
-- Responsividade
-- Organização de projeto Vue.js
-
----
-
----
-
-# Prints Funcionamento
-
-![alt text](image.png)
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-![alt text](image-3.png)
-
-![alt text](image-4.png)
-
-![alt text](image-5.png)
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
-
-
----
-
-# Autores
-
-Desenvolvido por **Marcus Mikael Rodrigues Vieira**.
-
-Desenvolvido por **Marcos Andre dos Santos Soares**.
-
+```sh
+npm run lint
 ```
