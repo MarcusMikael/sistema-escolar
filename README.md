@@ -93,7 +93,7 @@ src/
 ## Clonar o repositório
 
 ```bash
-git clone URL_DO_REPOSITORIO
+git clone https://github.com/MarcusMikael/sistema-escolar.git
 ```
 
 ---
@@ -162,6 +162,9 @@ Durante o desenvolvimento foram utilizados conceitos como:
 - Organização de projeto Vue.js
 
 ---
+
+# Funcionamento do Sistema
+Link - [https://youtu.be/ij28CKwHn2E]
 
 ---
 

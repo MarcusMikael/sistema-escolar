@@ -1,46 +1,23 @@
 <template>
+  
+  <aside class="sidebar">
 
-    <!-- <aside class="sidebar">
+    <RouterLink to="/" active-class="active">
+      Dashboard
+    </RouterLink>
 
-        <h2>Menu</h2>
+    <RouterLink to="/alunos" active-class="active">
+      Alunos
+    </RouterLink>
 
-        <router-link to="/">
-            Dashboard
-        </router-link>
+    <RouterLink to="/professores" active-class="active">
+      Professores
+    </RouterLink>
 
-        <router-link to="/alunos">
-            Alunos
-        </router-link>
+    <RouterLink to="/funcionarios" active-class="active">
+      Funcionários
+    </RouterLink>
 
-        <router-link to="/professores">
-            Professores
-        </router-link>
-
-        <router-link to="/funcionarios">
-            Funcionários
-        </router-link>
-
-    </aside> -->
-
-
-    <aside class="sidebar">
-
-  <RouterLink to="/" active-class="active">
-  Dashboard
-</RouterLink>
-
-<RouterLink to="/alunos" active-class="active">
-  Alunos
-</RouterLink>
-
-<RouterLink to="/professores" active-class="active">
-  Professores
-</RouterLink>
-
-<RouterLink to="/funcionarios" active-class="active">
-  Funcionários
-</RouterLink>
-
-</aside>
+  </aside>
 
 </template>
